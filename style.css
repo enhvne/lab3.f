@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+.container {
+    background-color: white;
+    border: 2px solid;
+    height: auto;
+}
+header {
+    background-color: rgb(52, 76, 163);
+    color: cornflowerblue;
+    padding: 10px;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: right;
+}
+nav {
+    background-color: rgb(52, 76, 163);
+    padding: 5px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: normal;
+}
+nav a {
+    color: white;
+    margin-right: 15px;
+}
+main {
+    display: flex;
+    padding: 10px;
+}
+.sidebar {
+    width: 13%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.overview {
+    font-weight: bold;
+    background-color: rgb(52, 76, 163);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.picture-section {
+    padding: 10px;
+}
+.info-section {
+    flex: 1;
+    border: 2px solid;
+    padding: 0px;
+}
+.quick-search {
+    margin-bottom: 10px;
+    border: dotted;
+    padding: 10px;
+}
+.search-bar {
+    width: 100%;
+}
+.search-bar input {
+    flex: 1;
+    padding: 5px;
+}
+.search-bar button {
+    background-color: rgb(52, 76, 163);
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    border: dotted;
+    padding: 10px;
+}
+ul li {
+    padding: 2px;
+}
+ul li a {
+    color: rgb(52, 76, 163);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0;
+}
+h4 {
+    background-color: rgb(52, 76, 163);
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+}
+table td {
+    padding: 0px;
+}
+.info-section table td {
+    padding: 5px;
+}
+img {
+    width: auto;
+    height: auto;
+}
+article {
+    margin-left: 30px; 
+    margin-right: 20px;
+}
+img.pro {
+    width: 324px 50%;
+    height: 216px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
